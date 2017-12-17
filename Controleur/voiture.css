@@ -1,0 +1,87 @@
+		div.page-header 
+		{
+			color:white;
+		    text-align: center;
+		    background-color: #1769ff80;
+		    margin-top: -20px;
+		    padding-bottom:20px;
+		    width: 100%;
+		    border-bottom: none;
+		    padding-top: 1em;
+		    max-height: 34em;
+		}
+
+		h1.titre1
+		{
+			padding-top: 0.75em;
+		    font-size: 50px;
+		    font-family: americanTW;
+		}
+
+		div.description{
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+
+		body {
+			color:white !important;
+		  	background-color: #0c0d17fc !important;
+		}
+
+		#aligner{
+			display: inline-block;
+		}
+
+		.input-group-addon {
+		  border-left-width: 0;
+		  border-right-width: 0;
+		}
+		.input-group-addon:first-child {
+		  border-left-width: 1px;
+		}
+		.input-group-addon:last-child {
+		  border-right-width: 1px;
+		}
+
+
+		.axis path,
+		.axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+
+		.dot {
+		  stroke: #000;
+		}
+
+		.tooltip {
+		  position: absolute;
+		  width: 200px;
+		  height: 28px;
+		  pointer-events: none;
+		  font-size: 1.2em;
+		}
+
+		.table th, .table td { 
+		  border-top: none !important;
+		  border-bottom: none !important;
+		}
+
+		#categorie{
+			/*font-family: "Comic Sans MS";*/
+			font-size: 16px;
+		}
+
+		.footer{
+			padding:15px;
+			color:white;
+			margin-top:500px;
+			background-color: #1769ff80;
+		}
+
+		div.return{
+			position: absolute;
+			top: 0;
+			left: 10px;
+		}

@@ -1,0 +1,41 @@
+div.page-header {
+    color:white;
+    text-align: center;
+    background-color: #1769ff80;
+    margin-top: -20px;
+    padding-bottom:20px;
+    width: 100%;
+    border-bottom: none;
+    padding-top: 1em;
+    max-height: 34em;
+}
+
+body
+{
+	background-color: #0c0d17fc;
+}
+
+h1.titre1
+{
+	padding-top: 0.75em;
+    font-size: 50px;
+    font-family: americanTW;
+}
+
+div.description{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+div.return{
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+.footer{
+	padding:15px;
+	color:white;
+	margin-top:500px;
+	background-color: #1769ff80;
+}

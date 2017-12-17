@@ -1,0 +1,25 @@
+CREATE DATABASE nuit CHARACTER SET utf8;
+
+use nuit;
+
+CREATE TABLE Users (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  mail VARCHAR(50) NOT NULL,
+  sexe CHAR(1),
+  date_naissance DATE NOT NULL,
+  nom VARCHAR(50),
+  prenom VARCHAR(50),
+  password VARCHAR(50),
+  PRIMARY KEY (id)
+)ENGINE=INNODB;
+
+CREATE TABLE Covoiturages (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  dateDepart DATETIME NOT NULL,
+  lieuDepart VARCHAR(250),
+  lieuArrivee VARCHAR(250),
+
+  PRIMARY KEY (id)
+)ENGINE=INNODB;
+
+
